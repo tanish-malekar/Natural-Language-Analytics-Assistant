@@ -1,0 +1,323 @@
+{
+  "REGION": [
+    {
+      "name": "R_REGIONKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "R_NAME",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "R_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "NATION": [
+    {
+      "name": "N_NATIONKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "N_NAME",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "N_REGIONKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "N_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "SUPPLIER": [
+    {
+      "name": "S_SUPPKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "S_NAME",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "S_ADDRESS",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "S_NATIONKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "S_PHONE",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "S_ACCTBAL",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "S_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "CUSTOMER": [
+    {
+      "name": "C_CUSTKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "C_NAME",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "C_ADDRESS",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "C_NATIONKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "C_PHONE",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "C_ACCTBAL",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "C_MKTSEGMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "C_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "PART": [
+    {
+      "name": "P_PARTKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "P_NAME",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "P_MFGR",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "P_BRAND",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "P_TYPE",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "P_SIZE",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "P_CONTAINER",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "P_RETAILPRICE",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "P_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "PARTSUPP": [
+    {
+      "name": "PS_PARTKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "PS_SUPPKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "PS_AVAILQTY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "PS_SUPPLYCOST",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "PS_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "ORDERS": [
+    {
+      "name": "O_ORDERKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "O_CUSTKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "O_ORDERSTATUS",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "O_TOTALPRICE",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "O_ORDERDATE",
+      "type": "DATE",
+      "comment": ""
+    },
+    {
+      "name": "O_ORDERPRIORITY",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "O_CLERK",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "O_SHIPPRIORITY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "O_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ],
+  "LINEITEM": [
+    {
+      "name": "L_ORDERKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_PARTKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_SUPPKEY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_LINENUMBER",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_QUANTITY",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_EXTENDEDPRICE",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_DISCOUNT",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_TAX",
+      "type": "NUMBER",
+      "comment": ""
+    },
+    {
+      "name": "L_RETURNFLAG",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "L_LINESTATUS",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "L_SHIPDATE",
+      "type": "DATE",
+      "comment": ""
+    },
+    {
+      "name": "L_COMMITDATE",
+      "type": "DATE",
+      "comment": ""
+    },
+    {
+      "name": "L_RECEIPTDATE",
+      "type": "DATE",
+      "comment": ""
+    },
+    {
+      "name": "L_SHIPINSTRUCT",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "L_SHIPMODE",
+      "type": "VARCHAR",
+      "comment": ""
+    },
+    {
+      "name": "L_COMMENT",
+      "type": "VARCHAR",
+      "comment": ""
+    }
+  ]
+}
