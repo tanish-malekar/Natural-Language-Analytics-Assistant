@@ -1,0 +1,8 @@
+{
+  "authoring": "Project-authored TPC-H SQL templates",
+  "seed": 42,
+  "training_rows": 480,
+  "validation_rows": 120,
+  "families": 12,
+  "split": "Seeded parameter split within training families; benchmark questions use a separate file and targets"
+}

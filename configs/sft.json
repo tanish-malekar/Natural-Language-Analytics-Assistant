@@ -1,0 +1,16 @@
+{
+  "base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "revision": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "max_length": 3072,
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "load_in_4bit": true,
+  "precision": "bf16",
+  "eval_steps": 20,
+  "seed": 42
+}
